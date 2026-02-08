@@ -1,3 +1,23 @@
+.participants-list {
+  padding-left: 0;
+}
+.participants-list li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-style: italic;
+}
+.delete-icon {
+  cursor: pointer;
+  color: #d11a2a;
+  margin-left: 8px;
+  font-size: 1.2em;
+  transition: color 0.2s;
+}
+.delete-icon:hover {
+  color: #a00;
+}
 * {
   box-sizing: border-box;
   margin: 0;
